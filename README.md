@@ -17,3 +17,11 @@ Vagrant will configure a private network with ip 192.163.2.101. If you need to c
 
 To access the application just hit http://192.163.2.101:8442/hello-world/
 
+*Basic Server Commands/Configuration*
+
+Stop Server: `./opt/wlp/bin/server stop liberty-server`
+Start Server: `./opt/wlp/bin/server start liberty-server`
+
+Deploy a new WAR: Just copy the file to /opt/wlp/usr/servers/liberty-server/apps/
+Server properties: /opt/wlp/usr/servers/liberty-server/server.xml
+JVM Arguments: Just create/change /opt/wlp/usr/servers/liberty-server/jvm.options
